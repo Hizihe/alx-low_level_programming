@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Printing
- *
- * Return: Always 0 (Successful)
+ * main - Entry point
+ * Description: use puts() to print to standard output
+ * Return: Always 0 (Sucess)
  */
+
 int main(void)
 {
-	puts("\"Programming is like building a multilingual
-			puzzle");
-	return (0);
+	/* String Initialization */
+	char message[] = "\"Programming is like building a multilingual puzzle";
+	/* Writing the string to stdout */
+	puts(message);
+	return (1);
 }

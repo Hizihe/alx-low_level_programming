@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point
- *   * Description: use puts() to print to standard output
- *    * Return: Always 0 (Sucess)
- *     * Author: Omotoye Shamsudeen Adekoya
- *      */
-
+* main - print the string in the function
+*
+* Describtion: using the main function
+* this program prints "programming is like building a multilingual puzzle
+* Return: 0
+*/
 int main(void)
 {
-		/* String Initialization */
-		char message[] = "\"Programming is like building a multilingual puzzle";
-			/* Writing the string to stdout */
-			puts(message);
-				return (1);
-}
+     puts("\"programming is like building a multilingual puzzle");
+     return (0);

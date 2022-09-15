@@ -1,9 +1,7 @@
-#include "main.h"                                                                                                                                               
-#include <stdio.h>
+#include "main.h"
 /**
  * print_last_digit - print the last digit of number
  * @n: (int) the integer to be processed
- *
 * Return: 0
 */
 int print_last_digit(int n)

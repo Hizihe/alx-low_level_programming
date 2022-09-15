@@ -3,7 +3,7 @@
 /**
  * print_to_98 - prints natural number to 98
  * @n: (int) the number to count from
- * @brief A function that prints all natural numbers from n to 98, followed by a new line.
+ * @brief A function that prints all natural numbers
 * Return: (void)
 */
 void print_to_98(int n)

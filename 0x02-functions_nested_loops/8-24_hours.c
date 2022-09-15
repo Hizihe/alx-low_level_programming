@@ -2,10 +2,9 @@
 #include <stdio.h>
 /**
  * jack_bauer - print every minute of the day
-/**
- * jack_bauer - print every minute of the day
  * @brief A function that prints every minute of the
-* Return: 0
+ *     day of Jack Bauer, starting from 00:00 to 23:59
+ * Return: (void)
 */
 void jack_bauer(void)
 {
